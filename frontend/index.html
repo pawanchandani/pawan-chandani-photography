@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Pawan Chandani Photography</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Pawan Chandani Photography</h1>
+      <nav>
+        <a href="#gallery">Gallery</a>
+        <a href="#upload">Upload</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <section id="gallery">
+      <h2>Photo Gallery</h2>
+      <div id="photos"></div>
+    </section>
+
+    <section id="upload">
+      <h2>Upload New Photo</h2>
+      <form id="uploadForm">
+        <input type="file" id="photo" name="photo" required />
+        <input
+          type="text"
+          id="date"
+          name="date"
+          placeholder="Date (YYYY-MM-DD)"
+          required
+        />
+        <button type="submit">Upload</button>
+      </form>
+      <p id="uploadStatus"></p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: pawanchandani.359@gmail.com</p>
+      <p>
+        Instagram:
+        <a href="https://instagram.com/the.chandani" target="_blank"
+          >@the.chandani</a
+        >
+      </p>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>

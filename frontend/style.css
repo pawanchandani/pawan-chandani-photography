@@ -1,0 +1,80 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #222;
+  color: #eee;
+}
+
+header {
+  background: #111;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+nav a {
+  color: #eee;
+  text-decoration: none;
+  margin-left: 1rem;
+}
+
+nav a:hover {
+  color: #f90;
+}
+
+section {
+  padding: 2rem;
+  max-width: 900px;
+  margin: auto;
+}
+
+#photos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+}
+
+#photos img {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #f90;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  gap: 0.5rem;
+}
+
+input,
+button {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: none;
+}
+
+button {
+  background-color: #f90;
+  color: #222;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #e68a00;
+}
+
+#uploadStatus {
+  margin-top: 1rem;
+  font-weight: bold;
+  color: #f90;
+}

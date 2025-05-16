@@ -1,0 +1,12 @@
+{
+  "photos": [
+    {
+      "url": "https://i.ibb.co/album-example/photo1.jpg",
+      "title": "Sunset"
+    },
+    {
+      "url": "https://i.ibb.co/album-example/photo2.jpg",
+      "title": "Mountains"
+    }
+  ]
+}
