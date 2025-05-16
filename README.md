@@ -1,26 +1,17 @@
-<<<<<<< HEAD
 # Pawan Chandani Photography
-Full-featured photography portfolio site.
-=======
-# Pawan Chandani Photography Website
 
-This is a photography portfolio website with:
-
-- Frontend gallery and upload page
-- Backend API with Flask to upload photos to ImgBB and serve gallery JSON
-- Contact info and Instagram link
-
-## Setup
-
-1. Clone the repo.
-2. Run `pip install flask requests`.
-3. Replace `YOUR_IMGBB_API_KEY` in `backend/app.py` with your ImgBB API key.
-4. Run the backend server with `python backend/app.py`.
-5. Open `frontend/index.html` in browser (or serve with a local server).
+This is a fullstack photography website with React frontend and Node.js backend.
 
 ## Features
 
-- Upload photos via the upload form
-- Gallery dynamically loads photos from backend
-- Uses ImgBB API for image hosting
->>>>>>> b652f1f331b565ee30cb3bcc74962b93aff22de3
+- Upload images via ImgBB API
+- Responsive React UI
+- Node.js backend API with Express
+- CI/CD with GitHub Actions deploying frontend to Vercel and backend to Render
+
+## Setup Instructions
+
+1. Create `.env` files in `client` and `server` with your ImgBB API key.
+2. Push this repo to GitHub.
+3. Connect your repo to Vercel and Render for deployment.
+4. Add secrets to GitHub Actions for deployment tokens.
