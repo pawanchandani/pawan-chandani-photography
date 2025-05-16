@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Admin Upload - Pawan Chandani Photography</title>
+    <link rel="stylesheet" href="admin-style.css" />
+  </head>
+  <body>
+    <h1>Admin Upload Panel</h1>
+    <form id="upload-form">
+      <label>
+        Select Image:
+        <input type="file" id="photo-file" accept="image/*" required />
+      </label>
+      <br /><br />
+      <label>
+        Caption:
+        <input
+          type="text"
+          id="caption"
+          placeholder="Enter photo caption"
+          required
+        />
+      </label>
+      <br /><br />
+      <button type="submit">Upload Photo</button>
+    </form>
+
+    <div id="status"></div>
+
+    <script src="admin-script.js"></script>
+  </body>
+</html>

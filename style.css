@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f4f4f4;
+    color: #333;
+}
+header {
+    background: #222;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.gallery img {
+    width: 200px;
+    height: auto;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #222;
+    color: white;
+}
